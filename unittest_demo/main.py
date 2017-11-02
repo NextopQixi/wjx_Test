@@ -74,7 +74,7 @@ def GenerateReport(path,file):
 if __name__ == '__main__':
 
     path=os.getcwd()
-    file='UnitTest.py'
+    file='UnitTestDemo.py'
     GenerateReport(path,file)
     report='UnitTest.html'
     print(SendEmail(report))
